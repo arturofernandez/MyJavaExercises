@@ -1,6 +1,8 @@
 /*
  * @author ARTURO FERNANDEZ
  * @version 08/10/2018
+ * @description Escribe un programa en Java que pregunte la cantidad a pagar y el porcentaje de IVA y devuelva por pantalla
+ * el total a pagar.
  */
 package com.company.Unit_1;
 import java.util.Scanner;

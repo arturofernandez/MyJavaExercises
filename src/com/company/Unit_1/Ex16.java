@@ -1,6 +1,8 @@
 /*
  * @author ARTURO FERNANDEZ
  * @version 08/10/2018
+ * @description  Escribe un programa en Java que pida la hora inicial (hora y minutos) y la hora final de una clase y muestre su
+ * duracion en minutos. Por ej., para 10:30-12:15, ha de devolver 105 minutos.
  */
 package com.company.Unit_1;
 import java.util.Scanner;

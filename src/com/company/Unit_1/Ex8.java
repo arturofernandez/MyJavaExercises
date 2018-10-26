@@ -1,6 +1,10 @@
 /*
  * @author ARTURO FERNANDEZ
  * @version 08/10/2018
+ * @description Escribe las expresiones necesarias en Java para calcular:
+ *              a) el area de la superficie de una esfera, dado su radio.
+ *              b) el volumen de una esfera, dado su radio.
+ *              c) el volumen de una esfera dada su superficie.
  */
 package com.company.Unit_1;
 public class Ex8 {

@@ -1,6 +1,8 @@
 /*
  * @author ARTURO FERNANDEZ
  * @version 08/10/2018
+ * @description ¿Qu´e muestra por pantalla el siguiente programa cuando se introduce -10? Y cuando se introduce 45? Y cuando
+ * se introduce 0?
  */
 package com.company.Unit_1;
 import java.util.Locale;

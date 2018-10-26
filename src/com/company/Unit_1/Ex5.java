@@ -1,6 +1,9 @@
 /*
  * @author ARTURO FERNANDEZ
  * @version 08/10/2018
+ * @description Escribe una instrucción en java que, suponiendo que las variables x, y, y z estan declaradas como double, asigne
+ * a z el valor resultado de la siguiente formula: 1+((x^2)/y)/(x^3)/(1+y)
+
  */
 package com.company.Unit_1;
 public class Ex5 {

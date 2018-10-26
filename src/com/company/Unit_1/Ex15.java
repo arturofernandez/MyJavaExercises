@@ -1,6 +1,9 @@
-/**
+/*
  * @author ARTURO FERNANDEZ
  * @version 08/10/2018
+ * @description Escribe un programa en Java que pida una cantidad de dinero, un interes y la cantidad de meses para devolverlo
+ * y calcule cuanto debe pagar cada mes. Supon que el interes se aplica de manera absoluta al valor total inicial.
+adeudado.
  */
 package com.company.Unit_1;
 import java.util.Scanner;
