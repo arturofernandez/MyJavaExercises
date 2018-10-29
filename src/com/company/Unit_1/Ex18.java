@@ -31,14 +31,33 @@ public class Ex18 {
         int duracionInicial = ((horaLlegada-horaSalida)*60)+((minutosLlegada-minutoSalida));
         System.out.println("Duracion inicial: " + duracionInicial + " minutos");
 
-        int nuevaHoraLleda = (int) (((horaLlegada-horaSalida)*0.15)+(horaLlegada-horaSalida))+(horaSalida);
+        int nuevaHoraLlegada = (int) (((horaLlegada-horaSalida)*0.15)+(horaLlegada-horaSalida))+(horaSalida);
         int nuevoMinutosLlegada = (int) ((minutosLlegada-minutoSalida)*0.15+(minutosLlegada-minutoSalida))+(minutoSalida);
         int nuevaDuracion = (int) (duracionInicial-(duracionInicial*0.15));
 
-        System.out.println("Nueva hora de llegada: "+nuevaHoraLleda);
-        System.out.println("Nuevos minutos de llegada: "+nuevoMinutosLlegada);
-        System.out.println("Nueva duraci\u00f3n: " + nuevaDuracion + " minutos");
+        int n = nuevaDuracion;
 
+        while(nuevaDuracion>60){
+            nuevaDuracion-=60;
+            horaSalida++;
+        }
+        if(nuevaDuracion+minutoSalida>=60){
+            nuevaDuracion+=minutoSalida;
+            nuevaDuracion-=60;
+            horaSalida++;
+        }
+
+        if(nuevaDuracion>minutoSalida && nuevaHoraLlegada!=0){
+            nuevaHoraLlegada--;
+        }
+
+        if(nuevaDuracion>minutoSalida && nuevaHoraLlegada==0){
+            nuevaHoraLlegada=23;
+        }
+
+        System.out.println("Nueva hora de llegada: "+ nuevaHoraLlegada);
+        System.out.println("Nuevos minutos de llegada: "+ nuevaDuracion);
+        System.out.println("Nueva duraci\u00f3n: " + n + " minutos");
 
     }
 }
