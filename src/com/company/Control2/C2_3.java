@@ -24,7 +24,7 @@ public class C2_3 {
 
     public static String intervalo (int num1, int num2){
         String num = "";
-        for (int i = num1+1; i<num2; i++){
+        for (int i = num1; i<=num2; i++){
             num += Integer.toString(i) + " ";
         }
         return num;

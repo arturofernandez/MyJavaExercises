@@ -16,17 +16,13 @@ public class C2_1 {
         System.out.println("Es el numero de caracteres un numero primo: "+dimeSiCadenaEsPrimo(cadena));
     }
     public static boolean dimeSiCadenaEsPrimo(String cadena){
-        boolean esPrimo = false;
+        boolean esPrimo = true;
         int numeroCaract = cadena.length();
-        int cont=0;
-        for (int i = 1; i<9; i++){
+        for (int i=2;i<numeroCaract;i++){
             int op = numeroCaract%i;
             if (op==0){
-                cont = cont+1;
+                esPrimo = false;
             }
-        }
-        if (cont == 2){
-            esPrimo = true;
         }
         return esPrimo;
     }

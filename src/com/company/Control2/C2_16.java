@@ -23,7 +23,7 @@ public class C2_16 {
         boolean esPos= false;
         int resta = n1-n2;
         if (resta>=0){
-           esPos= true;
+           esPos = true;
         }
         return esPos;
     }

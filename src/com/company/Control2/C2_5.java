@@ -24,8 +24,6 @@ public class C2_5 {
         for (int i = cad.length()-1; i>=0;i--){
             delReves += cad.substring(i,i+1);
         }
-        System.out.println(delReves);
         return delReves;
-
     }
 }

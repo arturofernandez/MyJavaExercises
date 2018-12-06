@@ -19,7 +19,7 @@ public class C2_9 {
     }
     public static String divisores (int n){
         String divisores = "";
-        for (int i = 1; i<9;i++){
+        for (int i = 1; i<=n;i++){
             if (n%i==0){
                 divisores+=i+" ";
             }

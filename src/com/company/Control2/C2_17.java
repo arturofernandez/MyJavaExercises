@@ -1,7 +1,7 @@
 /*
  * @author ARTURO FERNANDEZ
  * @version 02/12/2018
- * @description:
+ * @description: Escribe un método estático que pida un número entero y devuelva el número convertido a binario.
  *
  */
 package com.company.Control2;

@@ -17,16 +17,11 @@ public class C2_14 {
         System.out.println("¿Es primo?: "+esPrimo(num));
     }
     public static boolean esPrimo(int n){
-        boolean esPrimo = false;
-        int cont = 0;
-        for (int i=1; i<9;i++){
-            int op = n%i;
-            if (op==0){
-                cont++;
+        boolean esPrimo = true;
+        for (int i=2; i<n;i++){
+            if ((n%i)==0){
+                esPrimo = false;
             }
-        }
-        if (cont==2){
-            esPrimo = true;
         }
         return  esPrimo;
     }
